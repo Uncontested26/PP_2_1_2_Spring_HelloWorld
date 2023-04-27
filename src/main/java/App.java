@@ -20,7 +20,8 @@ public class App {
         Cat bean4 =
                 (Cat) applicationContext.getBean("cat");
         System.out.println(bean4.getVoice());
-
+        
+        System.out.println(bean==bean2);
         System.out.println(bean3==bean4);
 
 
